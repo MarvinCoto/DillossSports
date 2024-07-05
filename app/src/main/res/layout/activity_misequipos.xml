@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".misequipos">
+
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/rectangle_6"
+            android:layout_width="415dp"
+            android:layout_height="124dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/rectangle_6"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="-2dp" />
+
+        <View
+            android:id="@+id/rectangle_6a"
+            android:layout_width="367dp"
+            android:layout_height="138dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/rectangle_6a"
+            tools:layout_editor_absoluteX="22dp"
+            tools:layout_editor_absoluteY="159dp" />
+
+        <!-- Auto layout, variables, and unit scale are not yet supported -->
+        <View
+            android:id="@+id/rectangle_7"
+            android:layout_width="238dp"
+            android:layout_height="41dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/buttonp1"
+            tools:layout_editor_absoluteX="86dp"
+            tools:layout_editor_absoluteY="330dp" />
+
+        <!-- Auto layout, variables, and unit scale are not yet supported -->
+        <View
+            android:id="@+id/rectangle_7"
+            android:layout_width="238dp"
+            android:layout_height="41dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/buttonp2"
+            tools:layout_editor_absoluteX="86dp"
+            tools:layout_editor_absoluteY="384dp" />
+
+        <!-- Auto layout, variables, and unit scale are not yet supported -->
+        <View
+            android:id="@+id/rectangle_7"
+            android:layout_width="238dp"
+            android:layout_height="41dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/buttonp3"
+            tools:layout_editor_absoluteX="86dp"
+            tools:layout_editor_absoluteY="439dp" />
+
+        <!-- Auto layout, variables, and unit scale are not yet supported -->
+        <View
+            android:id="@+id/rectangle_7"
+            android:layout_width="238dp"
+            android:layout_height="41dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/buttonp4"
+            tools:layout_editor_absoluteX="86dp"
+            tools:layout_editor_absoluteY="494dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>
+
